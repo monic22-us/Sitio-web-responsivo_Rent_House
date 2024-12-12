@@ -1,39 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive House Rent Website</title>
-    <!-- link para css -->
-    <link rel="stylesheet" href="style.css">
-    <!--caja de iconos -->
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html and css</title>
+  <!-- link to css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fontawesomicon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
+
 <body>
-    <!-- barra de navegacion -->
-    <header>
-        <div class="nav container"></div>
-        <!-- logo -->
-         <a href="index.html" class="logo"><i class='bx bx-home'></i>R State</a>
-         <!-- menu de iconos -->
-          <input type="checkbox" name="" id="menu">
-          <label for="menu" <i class='bx bx-menu' id="menu-icons"></i></label>
-          <!-- nav list -->
-           <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#sales">Sales</a></li>
-            <li><a href="#properties">Properties</a></li>
-           </ul>
-           <!-- login button -->
-            <a href="" class="bt">Log In</a>
+  <!--NavBar  -->
+  <header>
+    <div class="nav container">
+      <!-- logo -->
+      <a href="index.html" class="logo"><i class="fa-solid fa-house"></i>R State</a>
+      <!-- menu-icon -->
+      <input type="checkbox" id="menu">
+      <label for="menu" <i class="fa-solid fa-bars" id="menu-icon"></i></label>
+      <!-- nav list -->
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#sale">Sale</a></li>
+        <li><a href="#properties">properties</a></li>
+      </ul>
+      <!-- log in button -->
+      <a href="login.html" class="btn">Log In</a>
+    </div>
     </header>
-<!-- home -->
- <section class="home container" id="home">
-    <div class="home-text">
-        <h1>Find your Next <br> Perfect Place To<br> Live</h1>
-        <a href="#" class="btn">Sing Up</a>
+    <!-- home -->
+    <section class="home container" id="home">
+      <div class="home-text">
+        <h1>Lorem, ipsum dolor. <br> Lorem ipsum dolor sit.</h1>
+        <a href="sign-up.html" class="btn">Sign up</a>
+      </div>
+    </section>
+
+
+    <!-- about -->
+    <section class="about container" id="about">
+      <div class="about-img">
+        <img src="image/2.jpg" alt="">
+      </div>
+      <div class="about-text">
+        <span>About us</span>
+        <h2>Lorem, ipsum dolor. <br> Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, unde minima ipsa fuga deleniti
+          reiciendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, unde minima ipsa fuga deleniti
+          reiciendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repellendus.</p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </section>
+
+
+    <!-- sale -->
+    <section class="sales container" id="sale">
+      <!-- box 1 -->
+      <div class="box">
+        <i class="fa-solid fa-user"></i>
+        <h3>make your dream true</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+
+      <!-- box 2 -->
+      <div class="box">
+        <i class="fa-solid fa-desktop"></i>
+        <h3>start your membership </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+
+      <!-- box 3 -->
+      <div class="box">
+        <i class="fa-solid fa-house"></i>
+        <h3>enjoy your new home</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </section>
+
+
+    <!-- properties -->
+    <section class="properties container" id="properties">
+      <div class="heading">
+        <span>recent</span>
+        <h2>Our feature properties</h2>
+        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="properties-container container">
+        <!-- box 1 -->
+        <div class="box">
+          <img src="image/3.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="box">
+          <img src="image/2.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>londaon,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="box">
+          <img src="image/2.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- box 4 -->
+        <div class="box">
+          <img src="image/4.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- box 5 -->
+        <div class="box">
+          <img src="image/2.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- box 6 -->
+        <div class="box">
+          <img src="image/4.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- box 7 -->
+        <div class="box">
+          <img src="image/3.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+
+<!-- box 8 -->
+        <div class="box">
+          <img src="image/3.jpg" alt="">
+          <h3>$15.2</h3>
+          <div class="content">
+            <div class="text">
+              <h3>the palaces</h3>
+              <p>london,us</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-bed"><span>5</span></i>
+              <i class="fa-solid fa-bath"><span>3</span></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+<section class="newletter container">
+<h2>Lorem ipsum dolor sit <br>Lorem ipsum dolor sit.</h2>
+<form action="">
+<input type="text" class="" id="email-box" placeholder="Your@gmail.com" required>
+<input type="submit" class="btn" value="Send">
+</form>
+</section>
+
+
+<section class="footer">
+<div class="footer-container container">
+<h2>r.state</h2>
+<div class="footer-box">
+<h3>Quick link</h3>
+<a href="#">agency</a>
+<a href="#">building</a>
+<a href="#">rates</a>
+</div>
+
+<div class="footer-box">
+<h3>location link</h3>
+<a href="#">krachi</a>
+<a href="#">sindh</a>
+<a href="#">punjab</a>
+</div>
+
+<div class="footer-box">
+<h3>contact</h3>
+<a href="#">+4555555555</a>
+<a href="#">+2569874312</a>
+<div class="social">
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- copywrite-->
+<div class="copywrite">
+<p>&#169; BilalCode ALL Right Reversed</p>
+
+</div>
+
+
 </body>
+
 </html>
